@@ -7,23 +7,13 @@
     sQL: Postgres, Mysql, sqlite, SQL Server
       dtabase.sqlite
 (v) Configurando concexão com o banco
-Identificando entidades da aplicação
-  Points (Pontos de coleta)
-    image
-    name
-    email
-    whatsapp
-    latitude
-    ongitude
-    city
-    uf
-  Items (Items para coleta)
-  Points items(Relacionamentos dos items que um poto coleta)
-    id_coleta id do ponto de colteta
-    id_items id dos items
-  Muitos para Muitos (N-N) (Pivo);
+(v) Identificando entidades da aplicação
+  (v)Points (Pontos de coleta)
+  (v)Items (Items para coleta)
+ (v) Points items(Relacionamentos dos items que um poto coleta)
+  (v)Muitos para Muitos (N-N) (Pivo);
 Funcionalidades da aplicação
-
+  
 Contrução do app
 Adicionano CORS
 

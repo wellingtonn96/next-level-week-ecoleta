@@ -1,9 +1,18 @@
 import { Router } from "express";
-
+import knex from "./database/connection";
 const router = Router();
 
-router.get(`/`, (request, response) => {
-  return response.json({ message: "Hello World" });
+router.get(`/items`, async (request, response) => {
+  const items = await knex("items").select("*");
+
+  const serialazedItems = items.map((item) => {
+    return {
+      title: item.title,
+      image_url: `http://localhost:3333/uploads/${item.image}`,
+    };
+  });
+
+  return response.json(serialazedItems);
 });
 
 export default router;
