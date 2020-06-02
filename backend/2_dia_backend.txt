@@ -1,0 +1,49 @@
+(v) EXplicando conceitos
+(v)  rotas e recursoso
+(v)  Métodos Http
+(v)  Tipo de parametros
+(v) Utilizando o insominia
+(v) Qual o banco de dados vamos utilizar?
+    sQL: Postgres, Mysql, sqlite, SQL Server
+      dtabase.sqlite
+(v) Configurando concexão com o banco
+Identificando entidades da aplicação
+  Points (Pontos de coleta)
+    image
+    name
+    email
+    whatsapp
+    latitude
+    ongitude
+    city
+    uf
+  Items (Items para coleta)
+  Points items(Relacionamentos dos items que um poto coleta)
+    id_coleta id do ponto de colteta
+    id_items id dos items
+  Muitos para Muitos (N-N) (Pivo);
+Funcionalidades da aplicação
+
+Contrução do app
+Adicionano CORS
+
+CREATE_TABLE
+
+//Rota: Endereçõ completo da requisição
+//Recurso: Qual entidade estamos acessando do sistemas
+
+//GET: Buscar uma ou mais informações do back-end
+//post: Criar uma informação no back-end
+//PUT: Atualizar uma infromação existente no back-end
+//DETELE: Remover uma informação do backe-end
+
+// POST: http://localhost:3333/users = Criar um usuário
+// GET: http://localhost;3333/users = Listar usúarios
+// GET http://localhost:3333/users/5 = Buscar um usãrio com o id 5
+
+//Reques Params: Parâmetros que vem na propria rota que indentificam um recurso
+//Query param Parametors que vem na prórpia rota geralmente para filtros, paginação:
+//Request boddy
+
+//SELECT - FROM WHERE NAME = 'Diego
+//Knex("users").where('name', 'Diego').select('*')
