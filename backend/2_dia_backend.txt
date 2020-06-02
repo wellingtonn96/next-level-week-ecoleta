@@ -27,7 +27,7 @@ Funcionalidades da aplicação
 Contrução do app
 Adicionano CORS
 
-CREATE_TABLE
+CREATE_TABLE 
 
 //Rota: Endereçõ completo da requisição
 //Recurso: Qual entidade estamos acessando do sistemas

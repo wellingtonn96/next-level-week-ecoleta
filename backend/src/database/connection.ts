@@ -6,6 +6,13 @@ const connection = knex({
   connection: {
     filename: path.resolve(__dirname, "database.sqlite"),
   },
+  useNullAsDefault: true,
 });
 
 export default connection;
+
+//migrations = Historico do banco
+
+//vantagens
+
+//trabalhar com mais de um desenvolvedor no projeto
