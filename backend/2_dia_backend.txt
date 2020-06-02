@@ -13,7 +13,8 @@
  (v) Points items(Relacionamentos dos items que um poto coleta)
   (v)Muitos para Muitos (N-N) (Pivo);
 Funcionalidades da aplicação
-  
+  (v) Listagem de items
+  (v) Cadastro de pontos de coleta
 Contrução do app
 Adicionano CORS
 
