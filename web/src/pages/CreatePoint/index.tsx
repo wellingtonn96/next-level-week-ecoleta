@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Map, TileLayer, Marker } from "react-leaflet";
+import api from "../../services/api";
 import "./style.css";
 
 import Logo from "../../assets/logo.svg";
 
+// array ou objeto: manualmente informar o tipo da varíavel
+
+interface item {
+  id: number;
+  title: string;
+  image_url: string;
+}
+
 const CreatePoint = () => {
+  const [items, setItems] = useState<item[]>([]);
+
+  useEffect(() => {
+    api.get("items").then((response) => {
+      setItems(response.data);
+    });
+  }, []);
+
   return (
     <div id="page-create-point">
       <header>
@@ -81,24 +98,12 @@ const CreatePoint = () => {
           </legend>
 
           <ul className="items-grid">
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="" />
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="" />
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="" />
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="" />
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="" />
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="" />
-            </li>
+            {items.map((item) => (
+              <li key={item.id}>
+                <img src={item.image_url} alt={item.title} />
+                <span>{item.title}</span>
+              </li>
+            ))}
           </ul>
         </fieldset>
 
