@@ -41,18 +41,21 @@ This app features all the latest tools and practices in mobile development!
 ### Getting started with the backend server
 
 1. Move yourself to the backend folder: `cd backend`
-2. Create a `.env` file and add the MongoDB url connection in MONGO_URL field
-3. Run `yarn dev` to start the server
+2. Run`knex:migrate` to create the tables
+3  Run`knex:seed` to insert the data into the table
+4. Run `yarn dev` to start the server
 
 ### Getting started with the frontend app
 
 1. Move yourself to the frontend folder: `cd frontend`
-2. Run `yarn start` to start the web application
+2. Run `yarn install` to install the dependencies
+3. Run `yarn start` to start the web application
 
 ### Getting started with the mobile app
 
 1. Move yourself to the mobile folder: `cd mobile`
-2. Run `expo start` (or `run-android` if your prefer) to start the mobile app
+2. Run `expo install` to install the dependencies
+2. Run `expo start` to start the mobile app
 
 ## License
 
