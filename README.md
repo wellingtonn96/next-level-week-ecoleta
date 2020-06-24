@@ -1,12 +1,13 @@
-# NextLevelWeek<h1 align="center">
+<h1 align="center">
 <br>
-  <img src="./.github/logo.svg" alt="License MIT" alt="ecoleta" width="120">
+  <img src="./logo.svg" alt="TinDev" width="120">
 <br>
 <br>
-  Ecoleta
+Ecoleta
 </h1>
 
-<p align="center">, built in a Next Level Week</p>
+<p align="center">
+Project to help people find waste collection points, for this propose we build a mobile and web app, in a Next Level Week</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
