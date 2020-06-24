@@ -17,7 +17,7 @@ Project to help people find waste collection points, for this propose we build a
 
 <div>
   <img src="./banner.png" alt="demo-web" height="425">
-  <img src="./github/inicio-mobile.svg" alt="demo-mobile" height="425">
+  <img src="./inicio-mobile.svg" alt="demo-mobile" height="425">
 </div>
 
 <hr />
