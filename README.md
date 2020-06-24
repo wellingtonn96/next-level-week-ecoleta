@@ -10,13 +10,13 @@
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
-    <img src="./.github/logo.svg" alt="License MIT">
+    <img src="./logo.svg" alt="License MIT">
   </a>
 </p>
 
 <div>
-  <img src="./.github/banner.png" alt="demo-web" height="425">
-  <img src="./github/../.github/inicio-mobile.svg" alt="demo-mobile" height="425">
+  <img src="./banner.png" alt="demo-web" height="425">
+  <img src="./github/inicio-mobile.svg" alt="demo-mobile" height="425">
 </div>
 
 <hr />
