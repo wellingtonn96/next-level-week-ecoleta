@@ -37,7 +37,7 @@ This app features all the latest tools and practices in mobile development!
 ### Getting started with the backend server
 
 1. Move yourself to the backend folder: `cd backend`
-2. Run`knex:migrate` to create the tables
+2. Run`knex:migrate` to create the tables <br />
 3  Run`knex:seed` to insert the data into the table
 4. Run `yarn dev` to start the server
 
