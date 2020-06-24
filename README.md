@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="./logo.svg" alt="TinDev" width="120">
+  <img src="./logo.svg" alt="Ecoleta">
 <br>
 <br>
 Ecoleta
@@ -9,11 +9,7 @@ Ecoleta
 <p align="center">
 Project to help people find waste collection points, for this propose we build a mobile and web app, in a Next Level Week</p>
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="./logo.svg" alt="License MIT">
-  </a>
-</p>
+
 
 <div>
   <img src="./banner.png" alt="demo-web" height="425" width="700">
